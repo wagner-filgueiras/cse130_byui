@@ -7,7 +7,7 @@
 
 nav a{
     text-align:center;
-    color:#000;
+    color:#fff;
     text-decoration:none;
     padding: 35px;
 
@@ -24,8 +24,8 @@ nav {
 }
 
 .book,.join {
-    background-color:#C9ADA7;
-    color:#000;
+    background-color:#ae2012;
+    color:#fff;
     text-decoration:none;
     text-align: center;
     padding: 15px 30px;
@@ -34,8 +34,8 @@ nav {
 }
 
 footer {
-    background-color:#C9ADA7;
-    color:#000;
+    background-color:#9b2226;
+    color:#fff;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -57,7 +57,7 @@ footer p a:hover {
 }
 
 footer a:hover {
-    color:#FFF;
+    color:#4A4E69;
 }
 
 #hero-img {
@@ -84,7 +84,7 @@ footer a:hover {
 
 nav a:hover,.book:hover,.join:hover {
     background-color:#C9ADA7;
-    color:#FFF;
+    color:#4A4E69;
 }
 h4,.msg h2 {
     color:#000;
@@ -100,7 +100,7 @@ h4,.msg h2 {
 }
 
 header {
-    background-color:#C9ADA7;
+    background-color:#9b2226;
     display: grid;
     grid-template-columns: 150px auto;
 }
