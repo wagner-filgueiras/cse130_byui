@@ -1,0 +1,96 @@
+#content {
+    max-width:1600px;
+    margin:0 auto;
+}
+
+nav a{
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+    padding: 35px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around; 
+}
+
+header {
+    background-color:#000;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+body {
+    background-color: #fff;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+width:200px;
+}
+
+nav a:hover,.book:hover,.join:hover {
+    background-color:#FF9635;
+    color:#fff;
+}
+
+.banner {
+ background: #171321;
+ color: #fff;
+ margin: auto;
+ text-align: center;
+ margin-top: -30px;
+}
+
+.banner h3{
+    padding-top: 20px;
+}
+
+.banner img {
+    max-width: 1600px;
+}
+
+
+
+
+footer {
+    background-color:#000;
+    color:#fff;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color:#fff;
+    text-decoration:none;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color:#FF9635;
+}
+
+.icon_footer{
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer .social img {
+    padding-top: 15px;
+    width: 100px;
+}
