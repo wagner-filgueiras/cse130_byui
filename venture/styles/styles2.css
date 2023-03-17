@@ -54,6 +54,50 @@ nav a:hover,.book:hover,.join:hover {
     max-width: 1600px;
 }
 
+.old_app {
+    max-width: 250px;
+    padding: 20px;
+}
+
+.centered_img {
+    padding-left: 200px;
+}
+
+
+.app_struc_img {
+    max-width: 700px;
+    
+    border-radius: 10px;
+    
+}
+
+.container {
+    background: #171321;
+    color: #fff;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    border-radius: 10px;
+    
+   }
+   
+   img {
+     max-width: 100%;
+     max-height:100%;
+   }
+
+   .text {
+    max-width: 800px;
+    padding-left: 100px;
+   }
+   
+   .gallery h3{
+    display: flex;
+    margin-left: 5%;
+   }
+  
+
 
 
 
@@ -93,4 +137,14 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
     width: 100px;
+}
+
+.be_social {
+    margin: auto;
+    width: 100px;
+    padding-top: 15px; 
+}
+
+.be_social:hover {
+    width: 110px;
 }
