@@ -153,6 +153,7 @@ footer .social img {
 }
 
 .pin_img{
+    padding-top: 20px;
     max-width: 1000px;
     margin-left: 300px;
     border-radius: 10px;   
@@ -165,3 +166,17 @@ footer .social img {
 #colors_img{
     width: 600px;
 }
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .column_center{
+    display: block;
+    flex: 50%;
+    margin-left: 700px;
+  }
