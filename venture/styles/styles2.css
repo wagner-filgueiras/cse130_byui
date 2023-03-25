@@ -224,6 +224,6 @@ footer .social img {
   
   /* Style the back side */
   .flip-box-back {
-    color: white;
+    color: #fff;
     transform: rotateY(180deg);
   }
